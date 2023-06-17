@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <external-path
+        name="shared_image"
+        path="myPaintings/"/>
+
+    <!--
+
+    Provider path for a specific path as followings:
+
+    <files-path/> &ndash;&gt; Context.getFilesDir()
+    <cache-path/> &ndash;&gt; Context.getCacheDir()
+    <external-path/> &ndash;&gt; Environment.getExternalStorageDirectory()
+    <external-files-path/> &ndash;&gt; Context.getExternalFilesDir(String)
+    <external-cache-path/> &ndash;&gt; Context.getExternalCacheDir()
+    <external-media-path/> &ndash;&gt; Context.getExternalMediaDirs() -->
+</paths>
